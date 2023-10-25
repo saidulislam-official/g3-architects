@@ -267,3 +267,45 @@ nav ul {
     font-weight: 500;
     line-height: 40px;
 }
+/* section features end */
+.some-facts h1{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0;
+}
+.some-facts p{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; 
+    width: 542px;
+    margin-top: 24px;
+    margin-bottom: 100px;
+}
+
+.badges{
+    display: flex;
+    gap: 124px;
+    justify-content: center;
+}
+.badges-box{
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+    border: 1px solid #FF900E;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center items horizontally within each badge */
+    justify-content: center; /* Center items vertically within each badge */
+}
+
+
+.badges-box p{
+    margin: 0;
+}
