@@ -309,3 +309,61 @@ nav ul {
 .badges-box p{
     margin: 0;
 }
+
+/* section Sponspors start */
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.details h1{
+    margin: 0;
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+} 
+.details p{
+    margin-top: 24px;
+    margin-bottom: 0;
+    width: 542px;
+    color: var(--Dark-03, #727272);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+.logos{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* footer part start */
+
+.footer-details{
+    border-radius: 8px;
+    background: #FFF4E7;
+    width: 1440px;
+    height: 100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-details p{
+    color: var(--Dark-02, #424242);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* footer part end */
