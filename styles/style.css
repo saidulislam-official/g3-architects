@@ -7,14 +7,33 @@ body{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
 }
+.primary-btn{
+    width: 180px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    border: none;
+}
 
 
 /* header start */
 header{
     height: 1322px;
     background: rgba(255, 144, 14, 0.10);
+    padding: 50px 140px 0px 140px; 
+       
+}
+/* nav part start */
+.nav-part{
     display: flex;
-    padding: 50px 140px 0px 140px;    
     justify-content: space-between;
 }
 .header-title{
@@ -27,7 +46,7 @@ header{
     font-style: normal;
     font-weight: 700;
     line-height: normal;   
-
+    
 }
 
 nav ul {
@@ -45,5 +64,57 @@ nav ul {
     font-weight: 500;
     line-height: 26px; 
 }
+/* nav part end */
+/* header-content */
+.header-content{
+    
+    margin-top: 100px;
+}
+.header-content-title{
+    color: var(--Dark-01, #131313);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 100%; /* Take up the full width of its container */
+    max-width: 868px; /* Set a maximum width of 868px */
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Center the text within the element */
+}
+.header-content-para{
+    display: flex;
+    justify-content: center; /* Horizontally center the content */
+    align-items: center; /* Vertically center the content */
+    width: 100%; /* Take up the full width of its container */
+    max-width: 868px; /* Set a maximum width of 868px */
+    margin: 0 auto; /* Center the element horizontally */
+    text-align: center; /* Center the text within the element */ 
+    margin-top: 16px;
+    margin-bottom: 56px;  
+}
+.header-content-btn{ 
+        display: flex;
+        justify-content: center; /* Horizontally center the content */
+        align-items: center; /* Vertically center the content */
+        margin: 0 auto; /* Center the element horizontally */
+        text-align: center; /* Center the text within the element */
+         
+}
+.banner-img{
+    margin-top: 50px; /* Optional: Add some top margin if needed */
+}
+.banner-img img{
+    display: block; /* Change display to block */
+    margin: 0 auto; /* Center the image horizontally */
+    width: 1440px; /* Set the width to 1440px */
+    height: 700px; /* Set the height to 700px */
 
+}
 /* header end  */
