@@ -367,3 +367,39 @@ nav ul {
 }
 
 /* footer part end */
+
+/*--------
+Media Query
+-------*/
+
+@media only screen and (max-width: 767px) {
+    .header{
+        width: 100%;
+    }
+    .nav-part{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .banner-img img{
+        display: block; /* Change display to block */
+        margin: 0 auto; /* Center the image horizontally */
+        max-width: 100%; /* Make the image responsive by setting max-width to 100% */
+        height: auto; /* Automatically adjust the height to maintain aspect ratio */
+    
+    }
+
+    .container-team{
+        display: flex;
+        flex-direction: column;
+        gap: 76px;
+    }
+    .container-feature{
+        display: flex;
+        flex-direction: column;
+    }
+}
