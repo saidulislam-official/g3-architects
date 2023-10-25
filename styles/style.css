@@ -166,3 +166,104 @@ nav ul {
 }
 
 /* section team end */
+/* section common start
+ */
+ .container-feature{
+    display: flex;
+    gap: 76px;
+ }
+ .feature-title{
+    display: flex;
+    gap:21px;
+
+ }
+ .feature-title hr{
+    width: 5px;
+    background: #FF900E;
+ }
+ .feature-title h1{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+ }
+ .feature-title p{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+ }
+ .feature-blogs-container{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    
+ }
+ .div-box{
+    width: 586px;
+    height: 171px;
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    padding: 30px 30px;
+ }
+
+ .feature-blogs-container h3{
+    color: var(--Dark-01, #131313);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+ }
+ .feature-blogs-container p{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+ }
+ .feature-img{
+    position: relative;
+ }
+
+.feature-img button{
+    border: none; 
+}
+.experience-btn{
+    width: 342px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FF900E;
+    position: absolute; /* Set the button to an absolute position */
+    bottom: 0; /* Position the button at the bottom */
+    left: 0; /* Position the button at the left */
+    margin-top: 200px; /* Add some margin for spacing */
+    /* margin-right: 100px; */
+    margin-bottom: 200px;
+    
+}
+.experience-btn span{
+    color: #FFF;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 70px; 
+}
+.experience-btn{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
